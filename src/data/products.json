@@ -1,0 +1,46 @@
+[
+    {
+        "id": 101,
+        "title": "iPhone 12 Mini",
+        "description": "Compacto y poderoso",
+        "code": "randomCodeHere",
+        "price": 600,
+        "stock": 3,
+        "category": "cellphones",
+        "thumbnail": "not available yet",
+        "status": true
+    },
+    {
+        "id": 102,
+        "title": "iPhone 13",
+        "description": "Diseño avanzado y rendimiento superior",
+        "code": "randomCodeHere",
+        "price": 800,
+        "stock": 3,
+        "category": "cellphones",
+        "thumbnail": "not available yet",
+        "status": true
+    },
+    {
+        "id": 103,
+        "title": "iPhone 14 Pro",
+        "description": "Un impresionante iPhone nuevo",
+        "code": "randomCodeHere",
+        "price": 1100,
+        "stock": 3,
+        "category": "cellphones",
+        "thumbnail": "not available yet",
+        "status": true
+    },
+    {
+        "id": 104,
+        "title": "iPhone SE (2022)",
+        "description": "Económico y eficiente",
+        "code": "randomCodeHere",
+        "price": 500,
+        "stock": 3,
+        "category": "cellphones",
+        "thumbnail": "not available yet",
+        "status": true
+    }
+]
