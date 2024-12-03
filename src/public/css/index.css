@@ -1,0 +1,110 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+
+    color-scheme: light dark;
+
+    --primary-color: #4CAF50;
+    --secondary-color: #FF5722;
+    --secondary-color-light: #FF784E;
+    --background-color: #1A202C;
+    --card-background-color: #2D3748;
+    --font-color: rgba(255, 255, 255, 0.95);
+    --hover-color: rgba(255, 255, 255, 0.1);
+}
+
+body {
+    margin: 0;
+    color: var(--font-color);
+    background-color: var(--background-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: var(--card-background-color);
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--font-color);
+    outline: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--secondary-color-light);
+    transform: scale(1.05);
+}
+
+.deleteButton {
+    margin: 10px auto;
+    width: 80%;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+    background-color: rgba(76, 175, 80, 0.8);
+}
+
+.productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 12px;
+    background-color: var(--card-background-color);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.productCard:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
